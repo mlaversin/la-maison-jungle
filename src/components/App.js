@@ -1,14 +1,15 @@
-import './App.css';
+import '../styles/Banner.css'
+import Banner from './Banner'
+import Cart from './Cart'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>La maison jungle</h1>
+    return (
+      <>
+        <Banner />
+        <Cart />
+      </>
 
-      </header>
-    </div>
-  );
+    )
 }
 
-export default App;
+export default App
